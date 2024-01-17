@@ -19,6 +19,7 @@ body {
     font-family: inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
+    margin: 2rem;
 }
 h1,h2,h3 {
     color: var(--color-primary);
@@ -140,6 +141,54 @@ a {
     width: 64px;
     height: 64px;
     border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Buttons */
+.btn {
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem;
+    text-transform: uppercase;
+    padding: 2rem 4vw;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+.btn--primary:hover{
+    background: #3a8ffd;
+}
+.btn--secondary {
+    background: var(--color-secondary);
+    color: #fff;
+}
+.btn--secondary:hover {
+    background: #00c8eb;
+}
+.btn--accent {
+    background: var(--color-accent);
+    color: #fff;
+}
+.btn--accent:hover {
+    background: #ec3000;
+}
+.btn--outline {
+    background: #fff;
+    border: 2px solid var(--color-heading);
+    color: var(--color-heading);
+}
+.btn--outline:hover {
+    background: var(--color-heading);
+    color: #fff;
+}
+.btn--block{
+    width: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
