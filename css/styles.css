@@ -193,3 +193,34 @@ a {
     justify-content: center;
     align-items: center;
 }
+/* Input */
+.input {
+    border-radius: 30px;
+    padding: 1.5rem 3.5rem;
+    border: 1px solid #ccc;
+    outline: 0;
+    color: var(--color-heading);
+    font-size: 2rem;
+}
+.input::placeholder {
+    color: #cdcdd7;
+}
+.input-group{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: flex;
+}
+.input-group .input {
+    border: 0;
+    flex-grow: 1;
+    width: 0;
+}
+.input-group .btn {
+    margin: 4px;
+
+}
+@media screen  and (min-width: 1024px){
+    .input {
+        font-size: 1.5rem;
+    }
+}
