@@ -7,14 +7,28 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-            <div class="callout__content">
-                <h2 class="callout__heading" >Ready to get started</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat perferendis culpa quo cum quidem eum facere quas sed quod quasi.</p>
-            </div>
-            <a href="#" class="btn btn--secondary btn--stretched">Buy Now</a>
+    <div class="collapsible collapsible--expanded">
+        <div class="collapsible__header">
+            <h2 class="collapsible__heading" >Item 1</h2>
+                <svg class="icon icon--white collapsible__chevron">
+                    <use href="/images/sprite.svg#chevron"></use>
+                </svg>
+        </div>
+        <div class="collapsible__content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem?
         </div>
     </div>
+    <div class="collapsible collapsible--expanded">
+        <div class="collapsible__header">
+            <h2 class="collapsible__heading" >Item 1</h2>
+                <svg class="icon icon--white collapsible__chevron">
+                    <use href="/images/sprite.svg#chevron"></use>
+                </svg>
+        </div>
+        <div class="collapsible__content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem?
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
 </body>
 </html>
