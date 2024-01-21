@@ -23,7 +23,7 @@ body {
     margin: 2rem;
 }
 h1,h2,h3 {
-    color: var(--color-primary);
+    color: var(--color-heading);
 }
 h1 {
     font-size: 7rem;
@@ -168,6 +168,7 @@ a {
     padding: 2rem 4vw;
     white-space: nowrap;
     cursor: pointer;
+    text-align: center;
 }
 .btn--primary {
     background: var(--color-primary);
@@ -198,6 +199,10 @@ a {
 .btn--outline:hover {
     background: var(--color-heading);
     color: #fff;
+}
+.btn--stretched {
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 .btn--block{
     width: 100%;
@@ -412,4 +417,37 @@ a {
         margin-left: 6rem;
         margin-right: 0;
       }
+}
+/* Callouts */
+.callout {
+    padding: 4rem;
+    border-radius: 5px;
+}
+.callout--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+.callout__heading {
+    color: #fff;
+    margin-top: 0;
+    font-size: 3rem;
+}
+.callout .btn {
+    justify-self: center;
+    align-self: center;
+}
+.callout__content {
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .callout .grid--1x2 {
+        grid-template-columns: 1fr auto;
+    }
+    .callout__content {
+        text-align: left;
+    }    
+    .callout .btn {
+        justify-self: start;
+        margin: 0 2rem;
+    }
 }
