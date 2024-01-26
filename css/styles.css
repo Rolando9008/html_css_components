@@ -1,4 +1,4 @@
-@import url(/css/normalize.css);
+@import url(normalize.css);
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d0ff;
@@ -24,7 +24,7 @@ body {
     font-family: inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
-    /* margin: 0; */
+    margin: 0;
 }
 h1,
 h2,
@@ -435,7 +435,7 @@ a {
     top: 3rem;
     right: -32px;
 }
-@media screen and (min-width:768) {
+@media screen and (min-width:768px) {
     .testimonial__image {
         margin: 0;
     }
@@ -445,7 +445,7 @@ a {
     }
 
 }
-@media screen and (min-width:460) {
+@media screen and (min-width:460px) {
     .testimonial .quote,
     .testimonial .quote__author {
         font-size: 1rem;
@@ -635,7 +635,7 @@ a {
     font-weight: 600;
     justify-items: center;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 @media screen and (min-width: 768px){
     .block-domain__prices {
